@@ -32,8 +32,6 @@ def get_video_bytes(video):
 
 opt = parse_opt()
 
-#  http://share.streamlit.io/
-
 #-----------------------------title---------------------------
 st.set_page_config(
     page_title="yolov5",    #页面标题
