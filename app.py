@@ -92,8 +92,8 @@ if is_valid:
             with st.spinner(text='Preparing Video'):
                 for vid in os.listdir(get_detection_folder()):
                     
-                    #st.video(str(Path(f'{get_detection_folder()}') / vid))
-                    st.video(get_video_bytes(os.path.join(get_detection_folder(), vid)))
+                    st.video(str(Path(f'{get_detection_folder()}') / vid))
+                    #st.video(get_video_bytes(os.path.join(get_detection_folder(), vid)))
 
                 st.balloons()
 
